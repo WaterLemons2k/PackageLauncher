@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.waterlemons2k.packagelauncher"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.waterlemons2k.packagelauncher"
-        minSdk = 1
-        targetSdk = 34
+        minSdk = 3
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }
@@ -18,7 +18,6 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
         }
     }
     compileOptions {
